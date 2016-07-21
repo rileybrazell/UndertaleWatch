@@ -1,6 +1,8 @@
 {
     "author": "rileybrazell@gmail.com",
-    "dependencies": {},
+    "dependencies": {
+        "pebble-clay": "^1.0.0"
+    },
     "keywords": [],
     "name": "undertalewatch",
     "pebble": {
