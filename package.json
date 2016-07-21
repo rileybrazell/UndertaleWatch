@@ -1,0 +1,72 @@
+{
+    "author": "rileybrazell@gmail.com",
+    "dependencies": {},
+    "keywords": [],
+    "name": "undertalewatch",
+    "pebble": {
+        "capabilities": [
+            "location"
+        ],
+        "displayName": "UndertaleWatch",
+        "enableMultiJS": true,
+        "messageKeys": [
+            "KEY_TEMPERATURE"
+        ],
+        "projectType": "native",
+        "resources": {
+            "media": [
+                {
+                    "file": "fonts/imagine.ttf",
+                    "name": "FONT_IMAGINE_12",
+                    "targetPlatforms": null,
+                    "type": "font"
+                },
+                {
+                    "file": "fonts/imagine.ttf",
+                    "name": "FONT_IMAGINE_18",
+                    "targetPlatforms": null,
+                    "type": "font"
+                },
+                {
+                    "file": "fonts/imagine.ttf",
+                    "name": "FONT_IMAGINE_32",
+                    "targetPlatforms": null,
+                    "type": "font"
+                },
+                {
+                    "file": "fonts/imagine.ttf",
+                    "name": "FONT_IMAGINE_42",
+                    "targetPlatforms": null,
+                    "type": "font"
+                },
+                {
+                    "file": "images/sans_head_wink_112x105.png",
+                    "name": "IMAGE_SANS_WINK",
+                    "type": "png"
+                },
+                {
+                    "file": "images/sans_head_112x105.png",
+                    "name": "IMAGE_SANS_HEAD",
+                    "type": "png"
+                },
+                {
+                    "file": "images/sans_head_icon.png",
+                    "menuIcon": true,
+                    "name": "IMAGE_SANS_ICON",
+                    "type": "png"
+                }
+            ]
+        },
+        "sdkVersion": "3",
+        "targetPlatforms": [
+            "aplite",
+            "basalt",
+            "chalk"
+        ],
+        "uuid": "0e2d3377-a186-4ffe-873d-4e2a80a1dce6",
+        "watchapp": {
+            "watchface": true
+        }
+    },
+    "version": "2.1.0"
+}
